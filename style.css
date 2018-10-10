@@ -4,7 +4,7 @@
 }
 
 .main-obj{
-	width: 912px;
+	width: 1112px;
     height: 382px;
     margin: 200px auto;
 
@@ -52,17 +52,18 @@
 
     color: #cbcbcb;
 }
-.slider{
+#slider{
 	width: 828px;
 	height: 249px;
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
 }
-.price
+#price
 {
     width: 138px;
-    margin: 0 138px;
+    margin-top: 0;
+    margin-left: 138px;
 }
 .price-top
 {
@@ -107,7 +108,7 @@
     justify-content: center;
     align-items: center;
 }
-.line
+#line
 {
     position: absolute;
     width: 828px;
@@ -117,10 +118,12 @@
     border-radius: 15px 15px 15px 15px;
     background-color: #557ebb;
 }
-.circle
+#circle
 {
+    float: left;
     position: relative;
-	margin: -10px 0 0 185px;
+	margin-top: -33px;
+    margin-left: 185px;
     display: flex;
 
     width: 40px;
@@ -135,8 +138,9 @@
     justify-content: center;
 }
 
-.color-line{
-    float: right;
+#color-line{
+    /*float: right;*/
+    margin-left: 207px;
     width: 620px;
     height: 25px;
     border-radius: 15px 15px 15px 15px;
